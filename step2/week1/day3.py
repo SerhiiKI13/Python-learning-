@@ -1,0 +1,8 @@
+name = input("Введите ваше имя")
+age = int(input("Введите ваш возраст"))
+height = float(input("Введите ваш рост"))
+favourite_number = int(input("Введите ваше любимое число"))
+print("Имя: ", name, type(name))
+print("Возраст: ", age, type(age))
+print("Рост: ", height, type(height))
+print("Любимое число: ", favourite_number, type(favourite_number))
