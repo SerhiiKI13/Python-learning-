@@ -28,4 +28,8 @@ def create_profile(**kwargs):
                                                                 city="Torun"
                                                                                 )
 
-
+def calculate_area(width:float,height:float) -> float:
+            """Calculate the area of a rectangle."""
+            return width * height
+print(calculate_area(5, 10))
+print(calculate_area.__doc__)
