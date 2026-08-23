@@ -1,13 +1,7 @@
-from projectF.utils import users
+from utils.users import adult_users,users
 from functools import wraps
 from dataclasses import dataclass
-users = [
-        {"name": "Serhii", "age": 24, "city": "Torun"},
-        {"name": "Alex", "age": 30, "city": "Bydgoszcz"},
-        {"name": "John", "age": 18, "city": "Warszawa"},
-        {"name": "Mike", "age": 27, "city": "Gdansk"},
-        {"name": "Anna", "age": 32, "city": "Torun"},
-]
+
 adult_names = {u["name"] for u in users if u["age"] >= 25}
 print(adult_names)
 
